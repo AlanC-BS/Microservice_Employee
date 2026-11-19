@@ -1,0 +1,77 @@
+
+# Maven
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+release.properties
+
+HELP.md
+
+# Java
+*.class
+*.log
+hs_err_pid*
+
+
+# Spring Tools Suite
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+# IntelliJ IDEA
+.idea/
+*.iws
+*.iml
+*.ipr
+out/
+
+# NetBeans
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+build/
+
+# Visual Studio Code
+.vscode/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Local application configurations
+application-local.properties
+application-dev-local.properties
+application-prod-local.properties
+
+# Certificates and private keys
+*.pem
+*.key
+*.p12
+*.pfx
+*.jks
+*.keystore
+
+# Operating system
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Temporary files
+*.tmp
+*.bak
+
+# Database backups and exports
+*.dmp
+*.dump
+*.sql.bak
+
+# Application logs
+logs/
